@@ -1,0 +1,41 @@
+name = Edunick
+description = Edunick es un tema clonado de creative responsive theme.
+core = 7.x
+
+engine = phptemplate
+stylesheets[all][] = style.css
+stylesheets[all][] = media.css
+scripts[] = js/custom.js
+
+regions[slideshow]      = Slideshow
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[top_first]      = First top
+regions[top_second]     = Second top
+regions[top_third]      = Third top
+regions[content]        = Content
+regions[footer_first]   = First Bottom
+regions[footer_second]  = Second Bottom
+regions[footer_third]   = Third Bottom
+regions[footer]         = Footer
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+settings[breadcrumbs]  = 1
+settings[social_links]  = 1
+settings[twitter_username] = "edunick"
+settings[facebook_username] = "edunick"
+; Information added by Drupal.org packaging script on 2015-03-19
+version = "7.x-1.1"
+core = "7.x"
+project = "edunick"
+datestamp = "1426792682"
+
